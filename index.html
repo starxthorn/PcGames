@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <header class="header" id="home">
+        <h1 class="header-heading"><span>Pak </span> Games</h1>
+        <input type="text" placeholder="Search Games" id="input" onkeyup="search()" >
+    </header>
+
+    <section class="hero">
+        <h1>Enjoy and download your <span class="auto-type"> </span></h1>
+        <p>Life is a dream for the wise, a game for the fool, a comedy for the rich, a tragedy for the poor.<br>
+            I've missed more than 9000 shots in my career.</p>
+        <button>contact</button>
+    </section>
+
+        <h1 class="main-header">Popular Games in 2023</h1>
+        <div class="box-wrapper">
+        </div>
+        
+        <!-- <h1 class="msg">Not Found Any Game</h1> -->
+        
+    <section class="footer" id="about">
+        <h1>copyright &copy; protected by <span>TAIMOOR SAFDAR</span></h1>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed(".auto-type", {
+        strings: ["favourite","action","horror games"],
+        typespeed: 50,
+        loop: true
+    })
+</script>
+<script src="index.js"></script>
+</body>
+</html>
